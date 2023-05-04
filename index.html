@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Personal Portfolio Website</title>
+    <script
+      src="https://kit.fontawesome.com/3a64359439.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container-header container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>FRONTEND DEVELOPER</p>
+          <h1>
+            Hi, I'm <span>Ashutosh</span> Pandey <br />
+            From INDIA
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------about-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My name is Ashutosh Pandey and I am currently pursuing my B.tech from KIET Groups of Institutions in IT(Information Technology)
+              branch. I belongs to Prayagraj, Uttar Pradesh. I did my class 10th from Rani Revati Devi S.V.N. Intermidiate College, Prayagraj
+              and class 12th from Madhab Gyan Kendra Intermidiate College, Prayagraj. I know C, C++, HTML, CSS, JavaScript, Python laguages
+              very well. I am Frontend Developer and well know Data Structures and Algorithms.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab(event, 'skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab(event,'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Developer</span><br />Devlopes user interfaces
+                  for websites
+                </li>
+                <li>
+                  <span>Data Structures</span><br />Well know about data
+                  Structures and Algorithms
+                </li>
+                <li>
+                  <span>Language Know</span
+                  ><br />C,C++,Python,HTML5,CSS,JavaScript
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Works in Creative Cell</span><br />As a content writer
+                </li>
+                <li><span>2021</span><br />Did my internship in CISCO</li>
+                <li><span>2022</span><br />Host in IEEE Confrence</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-2024</span><br />Education in KIET Groups of
+                  Institutions
+                </li>
+                <li><span>2018</span><br />Completed my class 12th</li>
+                <li><span>2016</span><br />Completed my class 10th</li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <img src="images/page22.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------services--------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              As an AI language model, I do not have access to information about
+              you. However, a portfolio typically includes information about
+              your background, education, skills.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Frontend Design</h2>
+            <p>
+              As an AI language model, I do not have access to information about
+              you. However, a portfolio typically includes information about
+              your background, education, skills.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Data Structures</h2>
+            <p>
+              As an AI language model, I do not have access to information about
+              you. However, a portfolio typically includes information about
+              your background, education, skills.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------portfolio----------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work3.png" />
+            <div class="layer">
+              <h3>Tourism Website</h3>
+              <p>
+                This website helps to user explore different places in diffrent
+                regions of the country.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work1.png" />
+            <div class="layer">
+              <h3>Explore Places</h3>
+              <p>
+                This website helps to user explore different places in diffrent
+                regions of the country.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work4.png" />
+            <div class="layer">
+              <h3>Diffrent regions</h3>
+              <p>
+                This website helps to user explore different places in diffrent
+                regions of the country.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- --------------contact-------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>pritekpandey44@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9315650000</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100009778926027"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/Ashutos35033273"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/mine_thoughts_85/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/ashutosh-pandey-982844209/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Ashutosh.resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class=".contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="E-mail" placeholder="Your E-mail" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>Copyyright <i class="fa-sharp fa-solid fa-copyright"></i> Ashutosh. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+      </div>
+    </div>
+    <script type="text/JavaScript" src="./script.js"></script>
+  </body>
+</html>
